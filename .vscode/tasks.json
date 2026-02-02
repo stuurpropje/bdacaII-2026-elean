@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "uv sync",
+      "type": "shell",
+      "command": "${env:HOME}/.local/bin/uv sync",
+      "windows": {
+        "command": "uv sync"
+      },
+      "options": {
+        "env": {
+          "PATH": "${env:HOME}/.local/bin:${env:PATH}"
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "install ipykernel",
+      "type": "shell",
+      "command": "./.venv/bin/python -m ipykernel install --user --name py-class",
+      "windows": {
+        "command": ".venv\\Scripts\\python.exe -m ipykernel install --user --name py-class"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Setup Python env (uv)",
+      "dependsOrder": "sequence",
+      "dependsOn": ["uv sync", "install ipykernel"]
+    }
+  ]
+}
