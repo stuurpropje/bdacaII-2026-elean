@@ -7,7 +7,6 @@ dependencies = [
   "ipykernel",
   "jupyterlab",
   "IPython",
-  
   # --- Data handling ---
   "pandas",
   "numpy<2.0",
@@ -15,18 +14,15 @@ dependencies = [
   "openpyxl",
   "pyarrow",
   "orjson",
-  
   # --- Visualization (minimal) ---
   "matplotlib",
   "seaborn",
   "wordcloud",
-  
   # --- Wikipedia & MediaWiki ---
   "wikipedia-api",
   "mwparserfromhell",
   "wikitextparser",
   "mwclient",
-  
   # --- Text & NLP ---
   "beautifulsoup4",
   "lxml",
@@ -36,38 +32,31 @@ dependencies = [
   "textblob",
   "textstat",
   "dateparser",
-  
   # --- Statistics & Time Series ---
   "statsmodels",
-  
   # --- Machine Learning ---
   "scikit-learn",
-  
   # --- Transformers & Embeddings ---
   "transformers",
   "torch",
   "sentence-transformers",
   "gensim",
   "fasttext-wheel",
-  
   # --- Network analysis ---
   "networkx",
-  
   # --- Multimodal ---
   "pillow",
-  
   # --- Web & APIs ---
   "requests",
   "httpx",
-  
   # --- File formats ---
   "python-docx",
   "pdfplumber",
-  
   # --- Utilities ---
   "tqdm",
   "nbformat",
   "ydata-profiling",
+  "pip>=26.0.1",
 ]
 
 [tool.uv]
