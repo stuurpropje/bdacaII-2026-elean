@@ -1,7 +1,8 @@
 # What was that bird? Learning driven through Wingspan play
 
 **Author:** Elean Huang  
-**Course:** 776500121Y: Big Data II (University of Amsterdam)  
+**Course:** 776500121Y: Big Data II (University of Amsterdam)
+
 **Date:** 28 March 2026  
 
 ---
@@ -18,18 +19,18 @@ The following research question was therefore asked.
 ## Repository Structure
 This repo is organised to separate raw data, processing scripts, and the final analysis:
 
-* **[`data/`](./data/)**
-    * **[`raw/`](./data/raw/)**: The eBird observation logs and the Wingspan bird list from [coolbutuseless](https://github.com/coolbutuseless/wingspan).
-    * **[`processed/`](./data/processed/)**: Cleaned and aggregated datasets for analysis.
-* **[`libraries/`](./libraries/)**: Python modules for data extraction:
+* [`data/`](./data/)
+    * [`raw/`](./data/raw/): The eBird observation logs and the Wingspan bird list from [coolbutuseless](https://github.com/coolbutuseless/wingspan).
+    * [`processed/`](./data/processed/): Cleaned and aggregated datasets for analysis.
+* [`libraries/`](./libraries/): Python modules for data extraction:
     * [`retrieve_BGG_data.py`](./libraries/retrieve_BGG_data.py): Retrieves Wingspan play logs via the BGG XML2 API.
     * [`retrieve_ebird_data.py`](./libraries/retrieve_ebird_data.py): Retrieves ecological sightings via the eBird API.
     * [`retrieve_wikipedia_pageviews.py`](./libraries/retrieve_wikipedia_pageviews.py): Retrieves page views via the Wikimedia REST API.
     * [`find_bird_links.py`](./libraries/find_bird_links.py): Maps Wikipedia link connections between bird species for the network analysis.
-* **[`notebooks/`](./notebooks/)**:
+* [`notebooks/`](./notebooks/):
     * [`analysis.ipynb`](./notebooks/analysis.ipynb): The main notebook containing the Fixed-Effects Panel Regression model and the network analysis.
-* **[`tables/`](./tables/)**: Output directory for generated figures, graphs, and descriptive statistics.
-* **Root Files**:
+* [`tables/`](./tables/): Output directory for generated figures, graphs, and descriptive statistics.
+* Root Files:
     * [`environment.yml`](./environment.yml): Conda environment configuration file containing necessary dependencies.
 
 ---
