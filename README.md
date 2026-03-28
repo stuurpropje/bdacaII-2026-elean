@@ -18,7 +18,7 @@ The following research question was therefore asked:
 ---
 
 ## Repository Structure
-This repo is organised to separate raw data, processing scripts, and the final analysis:
+This repo is organised as follows:
 
 * [`data/`](./data/)
     * [`raw/`](./data/raw/): The eBird observation logs and the Wingspan bird list from [coolbutuseless](https://github.com/coolbutuseless/wingspan).
