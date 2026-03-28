@@ -1,9 +1,10 @@
 # What was that bird? Learning driven through Wingspan play
 
-**Author:** Elean Huang  
-**Course:** 776500121Y: Big Data II (University of Amsterdam)
-
-**Date:** 28 March 2026  
+**Author:** E. Huang  
+**Course:** 776500121Y: Big Data II 
+**Affiliation:**: Graduate School of Communication Science, University of Amsterdam)
+**Professor:**: Dr. F. Loecherbach
+**Due Date:** 28 March 2026  
 
 ---
 
