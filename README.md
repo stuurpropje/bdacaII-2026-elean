@@ -52,8 +52,9 @@ This project uses a Conda environment for dependency management to ensure reprod
 ---
 
 ## Usage
-The seperate modules in [`libraries/`](./libraries/) can be used as follows. Include python3 or python depending on local installations of python. Generally speaking, when constructing the environment through Conda, this should be `python`.
+The seperate modules in [`libraries/`](./libraries/) can be used as follows. Include python3 or python depending on local installations of python. Generally speaking, when constructing the environment through Conda, this should be `python`. The Wikipedia modules can be freely used, but the BGG and eBird access modules require API keys to access them. 
 
+Doing the following would initiate data collection for a specified module at a specified end point:
 ```bash
 cd libraries
 python module_name.py
@@ -75,9 +76,3 @@ from libraries.module_name import object
 The full analysis can be ran by opening the [`analysis.ipynb`](./notebooks/analysis.ipynb) jupyter notebook in an editor of your choice and running everything. This notebook assumes that you open it in VSCode, but a standard JupyterLab environment is also functional. The outputs can be seen in [`tables/`](./tables/), which were downloaded from this analysis notebook.
 
 ---
-
-## Methodology
-1.  **Data Collection:** 30 days of data (22 Feb 2026 up and until 23 Mar 2026) were collected across Wikipedia (page views), BoardGameGeek (play counts), and eBird (real-world sightings).
-2.  **Primary Analysis:** A Fixed-Effects Panel Regression model evaluates daily variance in page views relative to a bird's historical average.
-3.  **Placebo Test:** A robustness check using a control group of 170 North American birds not featured in the game to ensure observed variance is related to Wingspan.
-4.  **Network Analysis:** A network analysis of Wikipedia links between Wingspan birds, which are then clustered using the Louvain community detection algorithm.
