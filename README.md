@@ -11,7 +11,7 @@
 ## Project Overview
 This project investigates whether playing the board game *Wingspan* (Hargrave, 2019) drives curiosity-driven information seeking based on the Information Gap Theory of Curiosity (Golman & Loewestein, 2018). An analysis evaluates if recorded Wingspan plays on BoardGameGeek correlate with increased Wikipedia searches for the North American bird species featured in the game, whilst controlling for real-world bird sightings using the eBird API.
 
-The following research question was therefore asked.
+The following research question was therefore asked:
 
 **Research Question:** How does the board game Wingspan cause curiosity-driven learning?
 
