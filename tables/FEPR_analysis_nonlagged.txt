@@ -1,0 +1,197 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     log_wiki_view_count   R-squared:                       0.895
+Model:                             OLS   Adj. R-squared:                  0.892
+Method:                  Least Squares   F-statistic:                     7075.
+Date:                 Sat, 28 Mar 2026   Prob (F-statistic):               0.00
+Time:                         11:33:43   Log-Likelihood:                -3318.4
+No. Observations:                 5780   AIC:                             6981.
+Df Residuals:                     5608   BIC:                             8127.
+Df Model:                          171                                         
+Covariance Type:                   HC3                                         
+===========================================================================================================
+                                              coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------
+Intercept                                   2.4599      0.045     54.087      0.000       2.371       2.549
+is_weekend[T.True]                         -0.0058      0.022     -0.263      0.793      -0.049       0.038
+C(bird)[T.American Avocet ]                -1.3081      0.139     -9.435      0.000      -1.580      -1.036
+C(bird)[T.American Bittern ]               -0.4523      0.102     -4.434      0.000      -0.652      -0.252
+C(bird)[T.American Coot]                    0.2346      0.062      3.766      0.000       0.112       0.357
+C(bird)[T.American Crow ]                   0.2541      0.046      5.486      0.000       0.163       0.345
+C(bird)[T.American Goldfinch ]             -0.2804      0.072     -3.918      0.000      -0.421      -0.140
+C(bird)[T.American Kestrel ]                1.5895      0.053     29.967      0.000       1.486       1.693
+C(bird)[T.American Oystercatcher]          -0.0015      0.063     -0.023      0.981      -0.125       0.122
+C(bird)[T.American Robin]                   1.4134      0.046     30.914      0.000       1.324       1.503
+C(bird)[T.American White Pelican ]          0.4875      0.057      8.527      0.000       0.375       0.599
+C(bird)[T.American Woodcock]                0.0067      0.050      0.135      0.892      -0.090       0.104
+C(bird)[T.Anhinga]                          0.5043      0.045     11.096      0.000       0.415       0.593
+C(bird)[T.Anna’s Hummingbird ]              0.0585      0.064      0.918      0.358      -0.066       0.183
+C(bird)[T.Ash-Throated Flycatcher ]        -1.6207      0.145    -11.196      0.000      -1.904      -1.337
+C(bird)[T.Atlantic Puffin]                  2.6777      0.032     83.615      0.000       2.615       2.740
+C(bird)[T.Baird’s Sparrow ]                -1.5008      0.189     -7.923      0.000      -1.872      -1.130
+C(bird)[T.Bald Eagle ]                      2.7231      0.036     76.318      0.000       2.653       2.793
+C(bird)[T.Baltimore Oriole ]                0.4775      0.077      6.162      0.000       0.326       0.629
+C(bird)[T.Barn Owl]                         2.5244      0.033     76.338      0.000       2.460       2.589
+C(bird)[T.Barn Swallow]                     2.6699      0.036     73.503      0.000       2.599       2.741
+C(bird)[T.Barred Owl]                      -0.1776      0.077     -2.320      0.020      -0.328      -0.028
+C(bird)[T.Barrow’s Goldeneye ]             -0.7053      0.073     -9.603      0.000      -0.849      -0.561
+C(bird)[T.Bell’s Vireo]                    -1.6358      0.102    -16.085      0.000      -1.835      -1.436
+C(bird)[T.Belted Kingfisher ]              -0.1443      0.048     -3.018      0.003      -0.238      -0.051
+C(bird)[T.Bewick’s Wren]                   -0.3478      0.071     -4.910      0.000      -0.487      -0.209
+C(bird)[T.Black Skimmer ]                  -0.3498      0.057     -6.116      0.000      -0.462      -0.238
+C(bird)[T.Black Tern]                      -1.1804      0.096    -12.243      0.000      -1.369      -0.991
+C(bird)[T.Black Vulture ]                   3.1122      0.027    113.582      0.000       3.059       3.166
+C(bird)[T.Black-Bellied Whistling-Duck]     0.8985      0.046     19.598      0.000       0.809       0.988
+C(bird)[T.Black-Crowned Night-Heron ]       2.0017      0.058     34.249      0.000       1.887       2.116
+C(bird)[T.Black-billed Magpie ]            -0.7122      0.077     -9.203      0.000      -0.864      -0.561
+C(bird)[T.Black-necked Stilt ]              0.0191      0.056      0.338      0.735      -0.091       0.129
+C(bird)[T.Blue Grosbeak]                   -0.2658      0.101     -2.631      0.009      -0.464      -0.068
+C(bird)[T.Blue Jay]                         2.0038      0.032     62.792      0.000       1.941       2.066
+C(bird)[T.Blue-Gray Gnatcatcher ]          -0.6945      0.093     -7.486      0.000      -0.876      -0.513
+C(bird)[T.Blue-Winged Warbler]             -1.9484      0.084    -23.085      0.000      -2.114      -1.783
+C(bird)[T.Bobolink]                        -0.9918      0.057    -17.349      0.000      -1.104      -0.880
+C(bird)[T.Brewer’s Blackbird ]             -1.2455      0.073    -16.962      0.000      -1.389      -1.102
+C(bird)[T.Bronzed Cowbird ]                -0.3178      0.060     -5.324      0.000      -0.435      -0.201
+C(bird)[T.Brown Pelican]                    1.0501      0.041     25.720      0.000       0.970       1.130
+C(bird)[T.Brown-headed Cowbird ]            0.2326      0.050      4.615      0.000       0.134       0.331
+C(bird)[T.Burrowing Owl ]                   2.0693      0.062     33.214      0.000       1.947       2.191
+C(bird)[T.Bushtit]                          0.1381      0.128      1.081      0.280      -0.112       0.388
+C(bird)[T.California Condor]                1.3359      0.045     29.367      0.000       1.247       1.425
+C(bird)[T.California Quail ]                0.5375      0.057      9.512      0.000       0.427       0.648
+C(bird)[T.Canada Goose ]                    1.0932      0.032     33.810      0.000       1.030       1.157
+C(bird)[T.Carolina Chickadee ]             -1.4975      0.123    -12.133      0.000      -1.739      -1.256
+C(bird)[T.Carolina Wren]                   -0.4359      0.084     -5.171      0.000      -0.601      -0.271
+C(bird)[T.Cassin’s Finch]                  -1.2428      0.071    -17.609      0.000      -1.381      -1.104
+C(bird)[T.Cassin’s Sparrow ]               -2.1915      0.078    -28.199      0.000      -2.344      -2.039
+C(bird)[T.Cedar Waxwing]                    0.0874      0.091      0.965      0.334      -0.090       0.265
+C(bird)[T.Cerulean Warbler ]               -1.2656      0.091    -13.943      0.000      -1.444      -1.088
+C(bird)[T.Chestnut-Collared Longspur ]     -2.1438      0.077    -27.729      0.000      -2.295      -1.992
+C(bird)[T.Chihuahuan Raven]                -0.6278      0.073     -8.600      0.000      -0.771      -0.485
+C(bird)[T.Chimney Swift]                   -1.5372      0.108    -14.227      0.000      -1.749      -1.325
+C(bird)[T.Chipping Sparrow ]               -0.4049      0.064     -6.374      0.000      -0.529      -0.280
+C(bird)[T.Clark’s Grebe ]                  -1.2166      0.078    -15.597      0.000      -1.369      -1.064
+C(bird)[T.Clark’s Nutcracker ]             -1.3775      0.061    -22.511      0.000      -1.497      -1.258
+C(bird)[T.Common Grackle ]                  0.7082      0.078      9.032      0.000       0.555       0.862
+C(bird)[T.Common Loon]                      1.2442      0.036     34.337      0.000       1.173       1.315
+C(bird)[T.Common Merganser ]                0.2033      0.063      3.201      0.001       0.079       0.328
+C(bird)[T.Common Nighthawk ]               -0.8771      0.100     -8.750      0.000      -1.074      -0.681
+C(bird)[T.Common Raven]                     3.2888      0.039     85.277      0.000       3.213       3.364
+C(bird)[T.Common Yellowthroat ]            -0.8004      0.105     -7.606      0.000      -1.007      -0.594
+C(bird)[T.Cooper’s Hawk ]                   0.0430      0.047      0.921      0.357      -0.048       0.134
+C(bird)[T.Dark-Eyed Junco]                  0.0563      0.058      0.978      0.328      -0.057       0.169
+C(bird)[T.Dickcissel]                      -0.3157      0.072     -4.398      0.000      -0.456      -0.175
+C(bird)[T.Double-Crested Cormorant ]       -0.5163      0.096     -5.385      0.000      -0.704      -0.328
+C(bird)[T.Downy Woodpecker ]               -2.2427      0.078    -28.634      0.000      -2.396      -2.089
+C(bird)[T.Eastern Bluebird]                 0.5728      0.057     10.089      0.000       0.462       0.684
+C(bird)[T.Eastern Kingbird]                -0.7881      0.070    -11.230      0.000      -0.926      -0.651
+C(bird)[T.Eastern Phoebe ]                 -1.0388      0.055    -18.935      0.000      -1.146      -0.931
+C(bird)[T.Eastern Screech Owl ]            -0.7826      0.083     -9.461      0.000      -0.945      -0.620
+C(bird)[T.Ferruginous Hawk ]               -1.3817      0.093    -14.785      0.000      -1.565      -1.199
+C(bird)[T.Fish Crow]                       -1.0450      0.084    -12.390      0.000      -1.210      -0.880
+C(bird)[T.Forster’s Tern ]                 -2.1527      0.089    -24.282      0.000      -2.326      -1.979
+C(bird)[T.Franklin’s Gull ]                -0.6226      0.099     -6.273      0.000      -0.817      -0.428
+C(bird)[T.Golden Eagle]                     3.0125      0.036     84.384      0.000       2.942       3.082
+C(bird)[T.Grasshopper Sparrow ]            -1.1269      0.098    -11.518      0.000      -1.319      -0.935
+C(bird)[T.Gray Catbird]                    -0.4092      0.068     -6.008      0.000      -0.543      -0.276
+C(bird)[T.Great Blue Heron]                 0.6394      0.040     15.990      0.000       0.561       0.718
+C(bird)[T.Great Crested Flycatcher ]       -1.3712      0.157     -8.752      0.000      -1.678      -1.064
+C(bird)[T.Great Egret]                      1.9645      0.040     49.254      0.000       1.886       2.043
+C(bird)[T.Great Horned Owl ]                1.6249      0.044     36.695      0.000       1.538       1.712
+C(bird)[T.Greater Prairie-Chicken ]         0.2349      0.045      5.277      0.000       0.148       0.322
+C(bird)[T.Greater Roadrunner ]              2.2784      0.047     48.448      0.000       2.186       2.371
+C(bird)[T.Green Heron]                     -0.0026      0.053     -0.050      0.960      -0.106       0.101
+C(bird)[T.Hermit Thrush]                   -0.9020      0.058    -15.664      0.000      -1.015      -0.789
+C(bird)[T.Hooded Merganser]                -1.2561      0.139     -9.055      0.000      -1.528      -0.984
+C(bird)[T.Hooded Warbler]                  -1.2514      0.112    -11.146      0.000      -1.471      -1.031
+C(bird)[T.Horned Lark]                     -0.7964      0.059    -13.403      0.000      -0.913      -0.680
+C(bird)[T.House Finch]                      1.2386      0.048     26.045      0.000       1.145       1.332
+C(bird)[T.House Wren]                       1.0102      0.039     25.866      0.000       0.934       1.087
+C(bird)[T.Inca Dove]                        1.3722      0.130     10.535      0.000       1.117       1.627
+C(bird)[T.Indigo Bunting ]                  0.2854      0.059      4.806      0.000       0.169       0.402
+C(bird)[T.Juniper Titmouse ]               -1.5903      0.147    -10.834      0.000      -1.878      -1.303
+C(bird)[T.Killdeer]                         0.1215      0.076      1.609      0.108      -0.026       0.269
+C(bird)[T.King Rail]                       -1.5310      0.129    -11.872      0.000      -1.784      -1.278
+C(bird)[T.Lazuli Bunting ]                 -0.0186      0.239     -0.078      0.938      -0.487       0.449
+C(bird)[T.Lincoln’s Sparrow]               -1.5711      0.082    -19.160      0.000      -1.732      -1.410
+C(bird)[T.Loggerhead Shrike]               -0.0301      0.048     -0.625      0.532      -0.125       0.064
+C(bird)[T.Mallard]                          2.4147      0.035     68.212      0.000       2.345       2.484
+C(bird)[T.Mississippi Kite]                -1.0609      0.098    -10.848      0.000      -1.253      -0.869
+C(bird)[T.Mountain Bluebird ]              -0.2086      0.071     -2.944      0.003      -0.347      -0.070
+C(bird)[T.Mountain Chickadee ]             -1.3333      0.059    -22.583      0.000      -1.449      -1.218
+C(bird)[T.Mourning Dove ]                   1.4431      0.049     29.513      0.000       1.347       1.539
+C(bird)[T.Northern Bobwhite]                0.2980      0.049      6.099      0.000       0.202       0.394
+C(bird)[T.Northern Cardinal ]               2.4405      0.038     64.196      0.000       2.366       2.515
+C(bird)[T.Northern Flicker]                -0.2826      0.076     -3.733      0.000      -0.431      -0.134
+C(bird)[T.Northern Harrier ]               -0.1950      0.053     -3.695      0.000      -0.298      -0.092
+C(bird)[T.Northern Mockingbird ]            2.5153      0.037     67.766      0.000       2.443       2.588
+C(bird)[T.Northern Shoveler ]               0.4259      0.041     10.503      0.000       0.346       0.505
+C(bird)[T.Osprey]                           1.9592      0.034     57.077      0.000       1.892       2.026
+C(bird)[T.Painted Bunting ]                 0.9395      0.054     17.241      0.000       0.833       1.046
+C(bird)[T.Peregrine Falcon ]                2.8773      0.031     91.481      0.000       2.816       2.939
+C(bird)[T.Pied-billed Grebe ]               0.0998      0.066      1.505      0.132      -0.030       0.230
+C(bird)[T.Pileated Woodpecker ]             0.0787      0.059      1.341      0.180      -0.036       0.194
+C(bird)[T.Pine Siskin]                     -1.2480      0.139     -8.974      0.000      -1.521      -0.975
+C(bird)[T.Prothonotary Warbler]            -1.3618      0.098    -13.886      0.000      -1.554      -1.170
+C(bird)[T.Purple Gallinule ]               -1.8106      0.117    -15.476      0.000      -2.040      -1.581
+C(bird)[T.Purple Martin]                   -1.1644      0.087    -13.375      0.000      -1.335      -0.994
+C(bird)[T.Pygmy Nuthatch]                  -1.4237      0.086    -16.479      0.000      -1.593      -1.254
+C(bird)[T.Red Crossbill]                    1.5971      0.071     22.542      0.000       1.458       1.736
+C(bird)[T.Red-Bellied Woodpecker ]         -0.4112      0.068     -6.064      0.000      -0.544      -0.278
+C(bird)[T.Red-Breasted Nuthatch ]          -1.1047      0.069    -16.007      0.000      -1.240      -0.969
+C(bird)[T.Red-Cockaded Woodpecker ]        -1.6992      0.198     -8.595      0.000      -2.087      -1.312
+C(bird)[T.Red-Eyed Vireo ]                  0.0397      0.075      0.533      0.594      -0.106       0.186
+C(bird)[T.Red-Headed Woodpecker ]          -0.2440      0.056     -4.392      0.000      -0.353      -0.135
+C(bird)[T.Red-Shouldered Hawk ]            -0.3404      0.081     -4.188      0.000      -0.500      -0.181
+C(bird)[T.Red-Tailed Hawk ]                 1.3429      0.041     33.121      0.000       1.263       1.422
+C(bird)[T.Red-Winged Blackbird ]            0.6319      0.067      9.489      0.000       0.501       0.762
+C(bird)[T.Ring-Billed Gull]                -0.7945      0.079    -10.083      0.000      -0.949      -0.640
+C(bird)[T.Rose-breasted Grosbeak ]          0.3344      0.053      6.299      0.000       0.230       0.438
+C(bird)[T.Roseate Spoonbill ]               1.1343      0.039     29.259      0.000       1.058       1.210
+C(bird)[T.Ruby-crowned Kinglet ]           -1.1751      0.090    -12.997      0.000      -1.352      -0.998
+C(bird)[T.Ruby-throated Hummingbird]        0.0191      0.055      0.346      0.729      -0.089       0.127
+C(bird)[T.Ruddy Duck]                       0.3784      0.046      8.236      0.000       0.288       0.469
+C(bird)[T.Sandhill Crane]                   0.1955      0.066      2.966      0.003       0.066       0.325
+C(bird)[T.Savannah Sparrow ]               -1.3171      0.064    -20.528      0.000      -1.443      -1.191
+C(bird)[T.Say’s Phoebe]                    -1.3308      0.081    -16.452      0.000      -1.489      -1.172
+C(bird)[T.Scissor-Tailed Flycatcher ]      -0.7301      0.106     -6.919      0.000      -0.937      -0.523
+C(bird)[T.Snowy Egret ]                     0.3554      0.060      5.960      0.000       0.239       0.472
+C(bird)[T.Song Sparrow ]                   -0.3023      0.089     -3.409      0.001      -0.476      -0.129
+C(bird)[T.Spotted Owl]                     -0.3550      0.085     -4.177      0.000      -0.522      -0.188
+C(bird)[T.Spotted Sandpiper ]              -0.8276      0.088     -9.369      0.000      -1.001      -0.654
+C(bird)[T.Spotted Towhee ]                 -0.9084      0.091     -9.933      0.000      -1.088      -0.729
+C(bird)[T.Sprague’s Pipit]                 -2.4769      0.025   -100.619      0.000      -2.525      -2.429
+C(bird)[T.Steller’s Jay]                    0.0831      0.060      1.384      0.166      -0.035       0.201
+C(bird)[T.Swainson’s Hawk]                 -0.4036      0.058     -6.982      0.000      -0.517      -0.290
+C(bird)[T.Tree Swallow ]                   -0.8163      0.075    -10.838      0.000      -0.964      -0.669
+C(bird)[T.Trumpeter Swan]                   0.3811      0.043      8.879      0.000       0.297       0.465
+C(bird)[T.Tufted Titmouse]                 -0.6357      0.071     -8.895      0.000      -0.776      -0.496
+C(bird)[T.Turkey Vulture]                   2.2825      0.034     67.883      0.000       2.217       2.348
+C(bird)[T.Violet-Green Swallow ]           -1.2672      0.096    -13.150      0.000      -1.456      -1.078
+C(bird)[T.Western Meadowlark]              -1.1177      0.108    -10.371      0.000      -1.329      -0.907
+C(bird)[T.Western Tanager]                 -1.0497      0.122     -8.625      0.000      -1.288      -0.811
+C(bird)[T.White-Crowned Sparrow ]          -0.6903      0.068    -10.214      0.000      -0.823      -0.558
+C(bird)[T.White-Faced Ibis ]                0.1225      0.080      1.524      0.128      -0.035       0.280
+C(bird)[T.White-breasted Nuthatch ]        -1.0148      0.108     -9.366      0.000      -1.227      -0.802
+C(bird)[T.Whooping Crane]                  -0.1217      0.071     -1.709      0.087      -0.261       0.018
+C(bird)[T.Wild Turkey]                      1.8786      0.036     52.301      0.000       1.808       1.949
+C(bird)[T.Willet]                          -0.8732      0.064    -13.671      0.000      -0.998      -0.748
+C(bird)[T.Wilson’s Snipe]                  -1.8542      0.108    -17.226      0.000      -2.065      -1.643
+C(bird)[T.Wood Duck]                        0.2391      0.048      4.995      0.000       0.145       0.333
+C(bird)[T.Wood Stork]                       0.2539      0.057      4.432      0.000       0.142       0.366
+C(bird)[T.Yellow-Bellied Sapsucker ]       -0.8228      0.083     -9.949      0.000      -0.985      -0.661
+C(bird)[T.Yellow-Billed Cuckoo]            -0.8602      0.075    -11.534      0.000      -1.006      -0.714
+C(bird)[T.Yellow-Breasted Chat ]           -1.6426      0.067    -24.476      0.000      -1.774      -1.511
+C(bird)[T.Yellow-Headed Blackbird ]         1.0485      0.077     13.585      0.000       0.897       1.200
+C(bird)[T.Yellow-Rumped Warbler ]          -0.0113      0.073     -0.154      0.878      -0.155       0.132
+plays                                    7.243e-05      0.000      0.425      0.671      -0.000       0.000
+==============================================================================
+Omnibus:                      704.688   Durbin-Watson:                   0.932
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5446.437
+Skew:                           0.318   Prob(JB):                         0.00
+Kurtosis:                       7.713   Cond. No.                     4.68e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 4.68e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,6 @@
+date,bird,wiki_view_count,plays,plays_lagged,ebird_entries,is_weekend,log_wiki_view_count
+2026-02-22,Acorn Woodpecker,10.0,437,,,True,2.3978952727983707
+2026-02-23,Acorn Woodpecker,11.0,241,437.0,,False,2.4849066497880004
+2026-02-24,Acorn Woodpecker,11.0,218,241.0,,False,2.4849066497880004
+2026-02-25,Acorn Woodpecker,26.0,206,218.0,,False,3.295836866004329
+2026-02-26,Acorn Woodpecker,12.0,210,206.0,,False,2.5649493574615367

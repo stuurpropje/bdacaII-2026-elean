@@ -1,0 +1,242 @@
+source_bird,target_bird,count
+American Coot,golden eagle,1
+American Crow ,common raven,2
+American Crow ,fish crow,2
+American Goldfinch ,blue jay,1
+American Kestrel ,blue jay,1
+American Kestrel ,Northern bobwhite,1
+American Robin,house finch,1
+American White Pelican ,trumpeter swan,1
+American White Pelican ,California condor,1
+American White Pelican ,brown pelican,1
+American White Pelican ,great blue heron,1
+American White Pelican ,Ring-billed gull,1
+American White Pelican ,common raven,1
+American White Pelican ,golden eagle,1
+American Woodcock,wild turkey,1
+Anhinga,Anhinga,1
+Anhinga,osprey,1
+Bald Eagle ,golden eagle,5
+Bald Eagle ,California condor,1
+Bald Eagle ,Osprey,1
+Bald Eagle ,mallard,1
+Bald Eagle ,American coot,1
+Bald Eagle ,brown pelican,1
+Bald Eagle ,common loon,2
+Bald Eagle ,great blue heron,1
+Bald Eagle ,Sandhill crane,1
+Bald Eagle ,whooping crane,1
+Bald Eagle ,trumpeter swan,1
+Bald Eagle ,turkey vulture,1
+Bald Eagle ,wild turkey,1
+Bald Eagle ,Eastern kingbird,1
+Baltimore Oriole ,blue jay,1
+Baltimore Oriole ,barn owl,1
+Baltimore Oriole ,American robin,1
+Barn Owl,golden eagle,1
+Barn Swallow,osprey,1
+Barred Owl,spotted owl,3
+Barred Owl,barn swallow,1
+Barred Owl,purple martin,1
+Barred Owl,hermit thrush,1
+Barred Owl,killdeer,1
+Barred Owl,American woodcock,1
+Barred Owl,wild turkey,1
+Bewick’s Wren,Carolina wren,2
+Bewick’s Wren,house wren,2
+Black Vulture ,turkey vulture,5
+Black Vulture ,wood stork,1
+Blue Jay,American robin,1
+Brown Pelican,fish crow,1
+Brown-headed Cowbird ,bobolink,1
+Brown-headed Cowbird ,house finch,1
+Burrowing Owl ,American robin,1
+California Condor,trumpeter swan,2
+California Condor,whooping crane,1
+California Condor,Common raven,1
+California Condor,golden eagle,3
+Canada Goose ,mallard,1
+Canada Goose ,common raven,1
+Canada Goose ,golden eagle,1
+Canada Goose ,turkey vulture,1
+Carolina Wren,house wren,1
+Carolina Wren,tufted titmouse,1
+Carolina Wren,blue jay,1
+Carolina Wren,house finch,1
+Cerulean Warbler ,blue jay,1
+Chihuahuan Raven,common raven,3
+Chimney Swift,barn swallow,1
+Chimney Swift,purple martin,1
+Chimney Swift,Mississippi kite,1
+Chipping Sparrow ,American robin,1
+Common Nighthawk ,golden eagle,1
+Common Raven,chihuahuan raven,1
+Common Raven,Chihuahuan raven,3
+Common Raven,golden eagle,2
+Common Raven,blue jay,1
+Common Raven,California condor,1
+Cooper’s Hawk ,Fish crow,1
+Cooper’s Hawk ,American robin,2
+Cooper’s Hawk ,blue jay,1
+Cooper’s Hawk ,Northern flicker,1
+Cooper’s Hawk ,fish crow,1
+Cooper’s Hawk ,bobolink,1
+Cooper’s Hawk ,Loggerhead shrike,1
+Cooper’s Hawk ,dark-eyed junco,1
+Cooper’s Hawk ,house finch,1
+Cooper’s Hawk ,pine siskin,1
+Cooper’s Hawk ,bushtit,1
+Cooper’s Hawk ,Inca dove,1
+Cooper’s Hawk ,northern flicker,1
+Cooper’s Hawk ,northern bobwhite,1
+Cooper’s Hawk ,wild turkey,1
+Cooper’s Hawk ,mallard,1
+Cooper’s Hawk ,ring-billed gull,1
+Cooper’s Hawk ,American coot,1
+Cooper’s Hawk ,golden eagle,1
+Cooper’s Hawk ,spotted owl,1
+Cooper’s Hawk ,barred owl,1
+Cooper’s Hawk ,turkey vulture,1
+Double-Crested Cormorant ,brown pelican,1
+Eastern Bluebird,gray catbird,1
+Eastern Bluebird,Purple Martin,1
+Eastern Kingbird,Blue jay,1
+Eastern Screech Owl ,barred owl,2
+Eastern Screech Owl ,northern flicker,2
+Eastern Screech Owl ,wood duck,1
+Eastern Screech Owl ,purple martin,1
+Eastern Screech Owl ,blue jay,2
+Eastern Screech Owl ,American robin,1
+Eastern Screech Owl ,northern bobwhite,1
+Eastern Screech Owl ,American woodcock,1
+Eastern Screech Owl ,spotted owl,1
+Ferruginous Hawk ,western meadowlark,1
+Ferruginous Hawk ,horned lark,1
+Ferruginous Hawk ,common raven,1
+Ferruginous Hawk ,Chihuahuan raven,1
+Ferruginous Hawk ,golden eagle,3
+Fish Crow,blue jay,1
+Forster’s Tern ,great blue heron,1
+Golden Eagle,California condor,1
+Golden Eagle,turkey vulture,1
+Golden Eagle,great blue heron,1
+Golden Eagle,osprey,1
+Gray Catbird,mallard,1
+Great Blue Heron,great egret,2
+Great Blue Heron,golden eagle,1
+Great Blue Heron,turkey vulture,1
+Great Blue Heron,common raven,1
+Great Egret,great blue heron,4
+Great Horned Owl ,barn owl,1
+Great Horned Owl ,golden eagle,1
+Great Horned Owl ,northern bobwhite,1
+Great Horned Owl ,wild turkey,1
+Great Horned Owl ,American coot,1
+Great Horned Owl ,mallard,1
+Great Horned Owl ,great blue heron,2
+Great Horned Owl ,trumpeter swan,1
+Great Horned Owl ,brown pelican,1
+Great Horned Owl ,sandhill crane,1
+Great Horned Owl ,osprey,3
+Great Horned Owl ,common raven,1
+Greater Roadrunner ,common raven,1
+Hermit Thrush,Hermit Thrush,1
+Hooded Merganser,wood duck,1
+Indigo Bunting ,blue grosbeak,1
+Indigo Bunting ,blue jay,1
+Juniper Titmouse ,tufted titmouse,1
+Lazuli Bunting ,Eastern bluebird,1
+Mallard,ruddy duck,1
+Mallard,golden eagle,1
+Mallard,great blue heron,1
+Mallard,Common loon,1
+Mallard,Wood duck,1
+Mountain Bluebird ,Eastern bluebird,2
+Northern Cardinal ,house finch,1
+Northern Cardinal ,golden eagle,1
+Northern Cardinal ,blue jay,1
+Northern Mockingbird ,Carolina wren,1
+Northern Mockingbird ,tufted titmouse,1
+Northern Mockingbird ,eastern bluebird,1
+Northern Mockingbird ,northern flicker,1
+Northern Mockingbird ,blue jay,1
+Northern Mockingbird ,American robin,1
+Northern Mockingbird ,fish crow,1
+Northern Shoveler ,mallard,2
+Osprey,western meadowlark,1
+Peregrine Falcon ,sandhill crane,1
+Peregrine Falcon ,northern flicker,1
+Peregrine Falcon ,American robin,1
+Peregrine Falcon ,yellow-billed cuckoo,1
+Peregrine Falcon ,golden eagle,1
+Pied-billed Grebe ,yellow-billed cuckoo,1
+Pileated Woodpecker ,golden eagle,1
+Pileated Woodpecker ,barred owl,1
+Pileated Woodpecker ,acorn woodpecker,1
+Prothonotary Warbler,hooded warbler,1
+Prothonotary Warbler,house wren,1
+Red-Bellied Woodpecker ,Blue jay,1
+Red-Bellied Woodpecker ,Wood duck,1
+Red-Bellied Woodpecker ,northern flicker,1
+Red-Cockaded Woodpecker ,Eastern bluebird,1
+Red-Cockaded Woodpecker ,tufted titmouse,1
+Red-Cockaded Woodpecker ,Wood duck,1
+Red-Headed Woodpecker ,acorn woodpecker,1
+Red-Shouldered Hawk ,blue jay,1
+Red-Shouldered Hawk ,barred owl,1
+Red-Shouldered Hawk ,golden eagle,1
+Red-Shouldered Hawk ,turkey vulture,1
+Red-Tailed Hawk ,wild turkey,1
+Red-Tailed Hawk ,golden eagle,1
+Red-Winged Blackbird ,Common raven,1
+Red-Winged Blackbird ,osprey,1
+Red-Winged Blackbird ,Bobolink,1
+Red-Winged Blackbird ,bobolink,1
+Rose-breasted Grosbeak ,American robin,1
+Rose-breasted Grosbeak ,blue jay,1
+Roseate Spoonbill ,great egret,1
+Roseate Spoonbill ,turkey vulture,1
+Ruby-throated Hummingbird,Mississippi kite,1
+Ruby-throated Hummingbird,loggerhead shrike,1
+Ruby-throated Hummingbird,Blue jay,1
+Sandhill Crane,whooping crane,2
+Snowy Egret ,great egret,1
+Song Sparrow ,horned lark,1
+Spotted Owl,barred owl,2
+Spotted Owl,golden eagle,1
+Spotted Towhee ,gray catbird,1
+Spotted Towhee ,western meadowlark,1
+Steller’s Jay,blue jay,2
+Steller’s Jay,osprey,1
+Swainson’s Hawk,Mallard,1
+Swainson’s Hawk,common raven,1
+Tree Swallow ,northern flicker,1
+Tree Swallow ,barred owl,1
+Tree Swallow ,barn swallow,1
+Tree Swallow ,house wren,1
+Trumpeter Swan,wild turkey,1
+Trumpeter Swan,common raven,1
+Trumpeter Swan,golden eagle,1
+Turkey Vulture,wild turkey,1
+Turkey Vulture,osprey,1
+Turkey Vulture,golden eagle,1
+Turkey Vulture,common raven,1
+Violet-Green Swallow ,barn swallow,1
+Violet-Green Swallow ,acorn woodpecker,1
+Western Meadowlark,osprey,1
+Western Tanager,American robin,1
+White-breasted Nuthatch ,pygmy nuthatch,1
+White-breasted Nuthatch ,house wren,1
+Whooping Crane,sandhill crane,3
+Whooping Crane,great egret,1
+Whooping Crane,great blue heron,1
+Whooping Crane,wood stork,1
+Whooping Crane,common raven,1
+Whooping Crane,Golden eagle,1
+Wild Turkey,trumpeter swan,1
+Wild Turkey,California condor,1
+Wild Turkey,whooping crane,1
+Wild Turkey,barred owl,1
+Wild Turkey,golden eagle,1
+Wild Turkey,osprey,1
+Wood Duck,mallard,2
